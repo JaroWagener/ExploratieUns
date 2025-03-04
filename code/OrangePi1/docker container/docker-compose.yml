@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  dashboard:
+    build: .
+    ports:
+      - "3000:3000"   # For the dashboard
+      - "8883:8883"   # MQTT Port
+    volumes:
+      - ./app:/usr/src/app/app   # Ensure app files are mounted
+    environment:
+      - NODE_ENV=production
