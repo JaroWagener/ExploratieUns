@@ -1,0 +1,70 @@
+{
+  "name": "spBv1.0",
+  "children": [
+    {
+      "name": "Campus",
+      "children": [
+        {
+          "name": "Geel",
+          "children": [
+            {
+              "name": "D_blok",
+              "children": [
+                {
+                  "name": "202",
+                  "children": [
+                    {
+                      "name": "DDATA",
+                      "children": [
+                        {
+                          "name": "Temperatuur",
+                          "children": [
+                            {
+                              "name": "Sensor1",
+                              "children": [],
+                              "value": "21.06451612903226 °C",
+                              "timestamp": 1734611843166
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PAC3200",
+                          "children": [
+                            {
+                              "name": "Voltage",
+                              "children": [],
+                              "value": "227.28 V",
+                              "timestamp": 1734611842150
+                            },
+                            {
+                              "name": "Ampere",
+                              "children": [],
+                              "value": "0.00 A",
+                              "timestamp": 1734611842154
+                            },
+                            {
+                              "name": "Vermogen",
+                              "children": [],
+                              "value": "0.00 W",
+                              "timestamp": 1734611842160
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sleutel",
+                          "children": [],
+                          "value": "Sleutel in lokaal",
+                          "timestamp": 1734606953837
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

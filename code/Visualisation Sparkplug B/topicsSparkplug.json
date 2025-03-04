@@ -1,0 +1,81 @@
+{
+  "name": "spBv1.0",
+  "children": [
+    {
+      "name": "Campus",
+      "children": [
+        {
+          "name": "Geel",
+          "children": [
+            {
+              "name": "D_blok",
+              "children": [
+                {
+                  "name": "202",
+                  "children": [
+                    {
+                      "name": "DDATA",
+                      "children": [
+                        {
+                          "name": "Temperatuur",
+                          "children": [
+                            {
+                              "name": "Sensor1",
+                              "children": [],
+                              "value": "28.59 °C",
+                              "timestamp": 1733751747388
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Luchtdruk",
+                          "children": [
+                            {
+                              "name": "Sensor1",
+                              "children": [],
+                              "value": "1022.95 hPa",
+                              "timestamp": 1733751747391
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PAC3200",
+                          "children": [
+                            {
+                              "name": "Voltage",
+                              "children": [],
+                              "value": "226.23 V",
+                              "timestamp": 1733751747393
+                            },
+                            {
+                              "name": "Ampere",
+                              "children": [],
+                              "value": "0.04 A",
+                              "timestamp": 1733751747398
+                            },
+                            {
+                              "name": "Vermogen",
+                              "children": [],
+                              "value": "0.00 W",
+                              "timestamp": 1733751747402
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sleutel",
+                          "children": [],
+                          "value": "Sleutel bij onthaal",
+                          "timestamp": 1733748089797
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

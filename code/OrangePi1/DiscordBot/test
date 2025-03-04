@@ -1,0 +1,17 @@
+[Unit]
+Description=Start Docker Container on Boot
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=sudo ip route del default via 192.168.137.1 dev eth0
+ExecStart=sudo docker start fe72d9ec0a49
+ExecStart=sudo python3 /home/orangepi/Desktop/DiscordBot/ReconnectTest.py
+Restart=no
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
+@reboot /usr/bin/sudo /usr/bin/python3 /home/orangepi/Desktop/DiscordBot/ReconnectTest.py &
